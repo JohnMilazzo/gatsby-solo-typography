@@ -1,20 +1,33 @@
 {
   "name": "gatsby-solo-typography",
   "description": "A Gatsby Solo starter from AtomicGatsby.com featuring gatsby-plugin-typography.",
-  "author": "John Milazzo <jm-gh@atomicgatsby.com>",
-  "license": "MIT",
-  "private": true,
+  "main": "index.js",
   "scripts": {
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build",
     "serve": "gatsby serve"
   },
+  "keywords": [
+    "Atomic Gatsby",
+    "GatsbyJS",
+    "Gatsby",
+    "gatsby-plugin-typography",
+    "Typography"
+  ],
+  "author": "John Milazzo <jm@atomicgatsby.com>",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnMilazzo/gatsby-solo-typography.git"
+  },
   "bugs": {
     "url": "https://github.com/JohnMilazzo/gatsby-solo-typography/issues"
   },
+  "homepage": "https://github.com/JohnMilazzo/gatsby-solo-typography#readme",
   "dependencies": {
-    "gatsby": "^2.0.112",
+    "gatsby": "^2.0.115",
     "gatsby-plugin-typography": "2.2.7",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
